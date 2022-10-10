@@ -1,0 +1,78 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+theme = 'hugo-PaperMod'
+
+
+title = 'Samuel Bonet' 
+
+
+
+
+[languages]
+
+  [languages.en]
+    languageName = 'English'
+    weight = 0
+   
+    [languages.en.menu]
+[[languages.en.menu.main]]
+      name = 'About me'
+      url = '/en/aboutMe'
+      weight = 0
+      [[languages.en.menu.main]]
+      name = 'Hugo'
+      url = '/en/hugoEn'
+      weight = 0
+      [[languages.en.menu.main]]
+      name = 'Client/Server'
+      url = '/en/clientServer'
+      weight = 0
+      [[languages.en.menu.main]]
+      name = 'Puzzle'
+      url = '/en/puzzleEn'
+      weight = 0
+
+
+ [languages.es]
+    languageName = 'Spanish'
+    weight = 0
+      contentDir = 'content/es'
+    [languages.es.menu]
+[[languages.es.menu.main]]
+      name = 'Sobre Mí'
+      url = '/es/sobreMi'
+      weight = 0
+      [[languages.es.menu.main]]
+      name = 'Hugo'
+      url = '/es/hugoEs'
+      weight = 0
+      [[languages.es.menu.main]]
+      name = 'Servidor/Cliente'
+      url = '/es/clienteServidor'
+      weight = 0
+      [[languages.es.menu.main]]
+      name = 'Puzzle'
+      url = '/es/puzzleEs'
+      weight = 0
+
+  [languages.fr]
+    languageName = 'Francés'
+    weight = 0
+      contentDir = 'content/fr'
+    [languages.fr.menu]
+[[languages.fr.menu.main]]
+      name = 'Sur Moi'
+      url = '/fr/surMoi'
+      weight = 0
+      [[languages.fr.menu.main]]
+      name = 'Hugo'
+      url = '/fr/hugoFr'
+      weight = 0
+      [[languages.fr.menu.main]]
+      name = 'Serveur/Client'
+      url = '/fr/serveurClient'
+      weight = 0
+      [[languages.fr.menu.main]]
+      name = 'Puzzle'
+      url = '/fr/puzzleFr'
+      weight = 0
