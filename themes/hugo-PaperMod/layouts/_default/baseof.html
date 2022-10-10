@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+<body class="
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
+{{- print "list" -}}
+{{- end -}}
+{{- if eq site.Params.defaultTheme `dark` -}}
+{{- print " dark" }}
+{{- end -}}
+" id="top">
+    {{- partialCached "header.html" . .Page -}}
+    
+    <main class="main">
+        {{- block "main" . }}{{ end }}
+        <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Hello dear internet user,<br>
+         Hola querido internauta,<br>Bonjour cher internaute,
+        </font></font></h1>
+        <div class="entry-content">
+            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></p>
+    <ul>
+    <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> </font></font></li>
+    <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></li>
+    <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font><a href="https://github.com/samuelbonet"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paper</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font></li>
+    </ul>
+    
+        </div>
+       
+        <div class="social-icons">
+            <a href="https://github.com/samuelbonet" target="_blank" rel="noopener noreferrer me" title="Github">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+        </svg>
+           
+        </div>
+
+        <article class="post-entry"> 
+            <header class="entry-header">
+              <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Introducción | Inglés</font><font style="vertical-align: inherit;">
+              </font></font></h2>
+            </header>
+            <div class="entry-content">
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">This page has been composed through the practice of Hugo, in this case the template chosen by me,
+                It has been Hugo Paper Mod, I think it is a simple and very minimalist template. </font></font></p>
+            </div>
+            <footer class="entry-footer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &nbsp;</font></font></footer>
+            <a class="entry-link" aria-label="publicar enlace a Instalación |  Actualizar" ></a>
+          </article>
+
+          <article class="post-entry"> 
+            <header class="entry-header">
+              <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Introducción | Español</font><font style="vertical-align: inherit;">
+              </font></font></h2>
+            </header>
+            <div class="entry-content">
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Está página se ha compuesto mediante la práctica de Hugo,en este caso la plantilla elegida por mí,
+            ha sido Hugo Paper Mod,creo que es una plantilla sencilla y muy minimalista.
+             </font></font></p>
+            </div>
+            <footer class="entry-footer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &nbsp;</font></font></footer>
+            
+          </article>
+
+          <article class="post-entry"> 
+            <header class="entry-header">
+              <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Introducción | Francés</font><font style="vertical-align: inherit;">
+              </font></font></h2>
+            </header>
+            <div class="entry-content">
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cette page a été composée grâce à la pratique d'Hugo, en l'occurrence le modèle choisi par moi,
+                Cela a été Hugo Paper Mod, je pense que c'est un modèle simple et très minimaliste. </font></font></p>
+            </div>
+            <footer class="entry-footer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &nbsp;</font></font></footer>
+           
+          </article>
+    </main>
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+
+</body>
+
+</html>
