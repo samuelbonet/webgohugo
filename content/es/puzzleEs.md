@@ -1,7 +1,7 @@
 # Conceptos
 
 ### Babel
-    Ofrece soluciones para empresas que atraviesen procesos de transformación digital
+`Ofrece soluciones para empresas que atraviesen procesos de transformación digital`
 
 ### WebPack 
     Permite generar un archivo único con todos aquellos módulos que necesita tu aplicación para funcionar

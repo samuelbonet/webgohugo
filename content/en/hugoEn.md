@@ -1,9 +1,9 @@
 ### What is Hugo?
 
-Hugo is a `framework`, that is, it allows us to `create` websites with predefined `templates`. It also allows you to generate static websites, such as a blog or a portfolio. The content files are created by the user in html or in markdown that Hugo will translate to html.
+Hugo is a `framework`, that is, it allows us to `create` websites with predefined `templates`. It also allows you to generate static websites, such as a `blog` or a portfolio. The content files are created by the user in html or in markdown that Hugo will translate to html.
 
 ### Characteristic
--It's cross-platform
+-It's cross-platform \
 -Documented \
 -Easy to use \
 -Variety of configurable themes \
@@ -14,32 +14,50 @@ Hugo is a `framework`, that is, it allows us to `create` websites with predefine
 
 ### How to install Hugo on Ubuntu
 
-If you didn't have snap installed \
-`sudo apt-get install snapd`
+If you didn't have snap installed 
+```
+sudo apt-get install snapd
+```
 
-Once the snap is obtained, we are going to install Hugo \
-`sudo apt-get install hugo`
+Once the snap is obtained, we are going to install Hugo 
+```
+sudo apt-get install hugo
+```
 
-We will install in our case Visual Studio Code to be able to edit our website \
-`sudo snap install code --classic`
+We will install in our case Visual Studio Code to be able to edit our website 
+```
+sudo snap install code --classic
+```
 
-We will create the site name \
-`hugo new site <page>`
+We will create the site name 
+```
+hugo new site <page>
+```
 
-Once we access the site, we will move to the themes folder \
-`cd themes`
+Once we access the site, we will move to the themes folder 
+```
+cd themes
+```
 
-In that folder we will clone our template via SSH or http from a repository, such as GitHub \
-`git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git relearn`
+In that folder we will clone our template via SSH or http from a repository, such as GitHub 
+```
+git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git relearn
+```
 
-We will go to our page folder, and enter \
-`code .`
+We will go to our page folder, and enter 
+```
+code .
+```
 
-In the configuration file (config.toml) we will change the title to the name of the template \
-`theme =['hugo-PaperMod']`
+In the configuration file (config.toml) we will change the title to the name of the template 
+```
+theme =['hugo-PaperMod']
+```
 
-Once all the previous steps are finished we can see our website from localhost \
-`hugo server`
+Once all the previous steps are finished we can see our website from localhost 
+```
+hugo server
+```
 
 
 ### Installing Hugo on Windows

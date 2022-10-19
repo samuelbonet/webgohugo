@@ -1,9 +1,9 @@
 ### Qu'est-ce qu'Hugo ?
 
-Hugo est un `framework`, c'est-à-dire qu'il nous permet de `créer` des sites Web avec des `modèles` prédéfinis. Il permet aussi de générer des sites web statiques, comme un blog ou un portfolio.Les fichiers de contenu sont créés par l'utilisateur en html ou en markdown qu'Hugo traduira en html.
+Hugo est un `framework`, c'est-à-dire qu'il nous permet de `créer` des sites Web avec des `modèles` prédéfinis. Il permet aussi de générer des sites web statiques, comme un `blog` ou un portfolio.Les fichiers de contenu sont créés par l'utilisateur en html ou en markdown qu'Hugo traduira en html.
 
 ### Caractéristique
--C'est multiplateforme
+-C'est multiplateforme \
 -Documenté \
 -Facile à utiliser \
 -Variété de thèmes configurables \
@@ -14,32 +14,50 @@ Hugo est un `framework`, c'est-à-dire qu'il nous permet de `créer` des sites W
 
 ### Comment installer Hugo sur Ubuntu
 
-Si vous n'avez pas installé snap \
-`sudo apt-get install snapd`
+Si vous n'avez pas installé snap 
+```
+sudo apt-get install snapd
+```
 
-Une fois le snap obtenu, nous allons installer Hugo \
-`sudo apt-get install hugo`
+Une fois le snap obtenu, nous allons installer Hugo 
+```
+sudo apt-get install hugo
+```
 
-Nous installerons dans notre cas Visual Studio Code pour pouvoir éditer notre site Web\
-`code d'installation sudo snap --classic`
+Nous installerons dans notre cas Visual Studio Code pour pouvoir éditer notre site Web
+```
+code d'installation sudo snap --classic
+```
 
-Nous allons créer le nom du site \
-`nouveau site hugo <page>`
+Nous allons créer le nom du site 
+```
+nouveau site hugo <page>
+```
 
-Une fois que nous aurons accédé au site, nous passerons au dossier des thèmes \
-`thèmes cd`
+Une fois que nous aurons accédé au site, nous passerons au dossier des thèmes 
+```
+thèmes cd
+```
 
-Dans ce dossier, nous allons cloner notre modèle via SSH ou http à partir d'un référentiel, tel que GitHub \
-`git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git relearn`
+Dans ce dossier, nous allons cloner notre modèle via SSH ou http à partir d'un référentiel, tel que GitHub 
+```
+git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git relearn
+```
 
-Nous allons aller dans notre dossier de page et entrer \
-`code .`
+Nous allons aller dans notre dossier de page et entrer 
+```
+code .
+```
 
-Dans le fichier de configuration (config.toml) nous allons changer le titre par le nom du template \
-`theme =['hugo-PaperMod']`
+Dans le fichier de configuration (config.toml) nous allons changer le titre par le nom du template 
+```
+theme =['hugo-PaperMod']
+```
 
-Une fois toutes les étapes précédentes terminées, nous pouvons voir notre site Web à partir de localhost \
-"serveur hugo"
+Une fois toutes les étapes précédentes terminées, nous pouvons voir notre site Web à partir de localhost 
+```
+serveur hugo
+```
 
 
 ### Installer Hugo sous Windows
