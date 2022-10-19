@@ -6,7 +6,13 @@ In addition, it can be considered an advantageous system in terms of security, s
 
 ### Components
 
-put chart
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
 
 ### Advantage

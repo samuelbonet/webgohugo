@@ -11,9 +11,6 @@ Soy ***estudiante de desarrollo de aplicaciones web***. Me encanta ***aprender**
 
 ![persona](https://static.habbo-happy.net/img/articles/13ae09_frankhabbo.gif)
 
-
-
-
 <br/>  
 
 ---

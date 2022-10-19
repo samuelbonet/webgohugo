@@ -1,6 +1,6 @@
 ### ¿Qué es Hugo?
 
-Hugo es un `framework` es decir, nos permite `crear` sitios web con `plantillas` predefinidas. Además permite generar sitios web estáticos,como puede ser un `blog` o un portafolio.Los archivos de contenido son creados por el usuario en html o en markdown que Hugo se encargará de traducir a html.
+Hugo es un `framework` es decir, nos permite `crear` sitios web con `plantillas` predefinidas. Además permite generar sitios web estáticos,como puede ser un blog o un portafolio.Los archivos de contenido son creados por el usuario en html o en markdown que Hugo se encargará de traducir a html.
 
 ### Características
 -Es multiplataforma \
@@ -11,60 +11,36 @@ Hugo es un `framework` es decir, nos permite `crear` sitios web con `plantillas`
 -Permite crear etiquetas y categorías \
 -Fácil de desplegar 
 
-```mermaid
-    graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```    
 
 ### Como instalar Hugo en Ubuntu
 
-Si no tuvieras snap instalado 
-```
+Si no tuvieras snap instalado \
 sudo apt-get install snapd
-```
 
-Una vez obtenido el snap,vamos a instalar Hugo 
-```
-sudo apt-get install hugo
-```
+Una vez obtenido el snap,vamos a instalar Hugo \
+`sudo apt-get install hugo`
 
-Instalaremos en nuestro caso Visual Studio Code para poder editar nuestro sitio web 
-```
-sudo snap install code --classic
-```
 
-Crearemos el nombre del sitio 
-```
-hugo new site <pagina>
-```
+Instalaremos en nuestro caso Visual Studio Code para poder editar nuestro sitio web \
+`sudo snap install code --classic`
 
-Una vez accedamos al sitio,nos moveremos a la carpeta themes 
-```
-cd themes
-```
+Crearemos el nombre del sitio \
+`hugo new site <pagina>`
 
-En esa carpeta clonaremos nuestra plantilla mediante SSH o http de un repositorio,como puede ser GitHub 
-```
-git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git relearn
-```
+Una vez accedamos al sitio,nos moveremos a la carpeta themes \
+`cd themes`
 
-Iremos a nuestra carpeta pagina,e introduciremos 
-```
-code .
-```
+En esa carpeta clonaremos nuestra plantilla mediante SSH o http de un repositorio,como puede ser GitHub \
+`git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git relearn`
 
-En el archivo de configuración (config.toml) cambiaremos el title por el nombre de la plantilla 
-```
-theme =['hugo-PaperMod']
-```
+Iremos a nuestra carpeta pagina,e introduciremos \
+`code .`
 
-Una vez finalizado todo los anteriores pasos podremos ver nuestra web desde localhost 
-```
-hugo server
-``` 
+En el archivo de configuración (config.toml) cambiaremos el title por el nombre de la plantilla \
+`theme =['hugo-PaperMod']`
+
+Una vez finalizado todo los anteriores pasos podremos ver nuestra web desde localhost \
+`hugo server` 
 
 
 ### Instalación de Hugo en Windows
