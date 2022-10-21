@@ -1,18 +1,31 @@
 
 ### Proceso de comunicación cliente/servidor
+Este sistema es un modelo que se adapta al servicio que queremos implementar. 
+Nos permite aumentar el rendimiento, bases de datos, redes y sistemas operativos.
+Además se puede considerar un sistema con ventajas en cuanto a seguridad, ya que el servidor es el encargado de controlar el acceso a sus datos, 
+es decir, el servidor nos concede permiso para poder acceder.
 
-El sistema cliente servidor es un modelo adaptable al servicio que queremos implementar. Este nos permite aumentar el rendimiento,como  envolver varias plataformas, bases de datos, redes y sistemas operativos que pueden ser de diferentes distribuidores con arquitecturas totalmente diferentes y hacer que funcionen al mismo tiempo.
+```mermaid
+ flowchart LR;
 
-Además se puede considerar un sistema ventajoso en cuanto a seguridad, ya que el servidor controla el acceso a sus datos, es decir que el servidor nos de permiso para poder acceder a él.
+A( cliente)  -->|peticion| B(internet   ) 
+B --> | peticion|C(servidor)
+```
+```mermaid
+flowchart LR;
 
+A( servidor)  -->|respuesta| B(internet   ) 
+B --> | respuesta|C(cliente)
+
+
+```
 ### Componentes
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+flowchart LR
+
+A( presentación de la información)  --> B(procesos) 
+B --> C(almacenamiento de la información) -->D(comunicaciones)
 ```
 
 
@@ -33,6 +46,22 @@ Además se puede considerar un sistema ventajoso en cuanto a seguridad, ya que e
 -Requieren que pases por procesos de validación
 
 -Limitación importante a los costos económicos 
+
+### Proceso de carga
+
+```mermaid
+
+flowchart LR;
+
+A( navegador)  --> |petición| B(servidor) 
+B --> C(página php) --> |procesar php| D(resultado html) -->A
+
+```
+
+
+Como se puede ver en el gráfico,el proceso de carga parte desde el navegador que será el encargado mandar la petición al servidor,es decir, el componente consumidor de servicios 
+y el servidor el proceso proveedor de servicios.Una vez llegado al servidor ,este lo mandará a la página php que será la encargada de procesarlo y documentar el resultado mediante 
+el HTML, y por último volverá al navegador.
 
 ---
 
