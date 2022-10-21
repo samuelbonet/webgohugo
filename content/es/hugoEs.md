@@ -13,48 +13,48 @@ D --> E(idiomas)
 
 ### Como instalar Hugo en Ubuntu
 
-Si no tuvieras snap instalado \
+Si no tuvieras snap instalado 
 ```
 sudo apt-get install snapd
 ```
 
-Una vez obtenido el snap,vamos a instalar Hugo \
+Una vez obtenido el snap,vamos a instalar Hugo 
 ```
 sudo apt-get install hugo
 ```
 
 
-Instalaremos en nuestro caso Visual Studio Code para poder editar nuestro sitio web \
+Instalaremos en nuestro caso Visual Studio Code para poder editar nuestro sitio web 
 ```
 sudo snap install code --classic
 ```
 
-Crearemos el nombre del sitio \
+Crearemos el nombre del sitio 
 ```
 hugo new site <pagina>
 ```
 
-Una vez accedamos al sitio,nos moveremos a la carpeta themes \
+Una vez accedamos al sitio,nos moveremos a la carpeta themes 
 ```
 cd themes
 ```
 
-En esa carpeta clonaremos nuestra plantilla mediante SSH o http de un repositorio,como puede ser GitHub \
+En esa carpeta clonaremos nuestra plantilla mediante SSH o http de un repositorio,como puede ser GitHub 
 ```
 git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git relearn
 ```
 
-Iremos a nuestra carpeta pagina,e introduciremos \
+Iremos a nuestra carpeta pagina,e introduciremos 
 ```
 code .
 ```
 
-En el archivo de configuración (config.toml) cambiaremos el title por el nombre de la plantilla \
+En el archivo de configuración (config.toml) cambiaremos el title por el nombre de la plantilla 
 ```
 theme =['hugo-PaperMod']
 ```
 
-Una vez finalizado todo los anteriores pasos podremos ver nuestra web desde localhost \
+Una vez finalizado todo los anteriores pasos podremos ver nuestra web desde localhost 
 ```
 hugo server
 ``` 
