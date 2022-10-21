@@ -39,7 +39,7 @@
 ### TypeScript 
 `Desarrolla aplicaciones JavaScript que se ejecutarán en el lado del cliente o del servidor, o extensiones` 
 
-### JQuery falta
+### JQuery 
 `Biblioteca multiplataforma de JavaScript, permite simplificar la manera de interactuar con los documentos HTML, y otras acciones a páginas web`
 
 ### Gatsby

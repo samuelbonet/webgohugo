@@ -22,7 +22,7 @@ B --> | respuesta|C(cliente)
 ### Componentes
 
 ```mermaid
-flowchart LR
+flowchart LR;
 
 A( presentación de la información)  --> B(procesos) 
 B --> C(almacenamiento de la información) -->D(comunicaciones)

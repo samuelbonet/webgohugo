@@ -14,7 +14,7 @@ hasMermaid=true
   [languages.en]
     languageName = 'English'
     weight = 0
-   
+    
     [languages.en.menu]
 [[languages.en.menu.main]]
       name = 'About me'

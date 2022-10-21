@@ -1,6 +1,6 @@
 ### ¿Qué es Hugo?
 
-Hugo es un `framework` es decir, nos permite `crear` sitios web con `plantillas` predefinidas. Además permite generar sitios web estáticos,como puede ser un blog o un portafolio.Los archivos de contenido son creados por el usuario en html o en markdown que Hugo se encargará de traducir a html.
+Hugo es un `framework` es decir, nos permite `crear` sitios web con `plantillas` predefinidas. Además permite generar sitios web estáticos,como puede ser un `blog` o un portafolio.Los archivos de contenido son creados por el usuario en html o en markdown que Hugo se encargará de traducir a html.
 
 ### Características
 ```mermaid

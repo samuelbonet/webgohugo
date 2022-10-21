@@ -1,7 +1,7 @@
 ### Qu'est-ce qu'Hugo ?
 
-Hugo est un `framework`, c'est-à-dire qu'il nous permet de `créer` des sites Web avec des `modèles` prédéfinis. Il permet aussi de générer des sites web statiques, comme un blog ou un portfolio.Les fichiers de contenu sont créés par l'utilisateur en html ou en markdown qu'Hugo traduira en html.
-
+Hugo est un `framework`, c'est-à-dire qu'il nous permet de `créer` des sites Web avec des `modèles` prédéfinis. Il permet aussi de générer des sites web statiques, comme un `blog` ou un portfolio.Les fichiers de contenu sont créés par l'utilisateur en html ou en markdown qu'Hugo traduira en html.
+ss
 ### Caractéristique
 ```mermaid
 flowchart LR;
