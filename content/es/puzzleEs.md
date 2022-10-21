@@ -33,7 +33,7 @@
 ### Angular
 `Framework para aplicaciones web de código abierto,se utiliza para crear y mantener aplicaciones web de una sola página`
 
-### JavaScript falta
+### JavaScript 
 `Añade características interactivas a un sitio web`
 
 ### TypeScript 
@@ -51,7 +51,7 @@
 ### Jekyll
 `Generador simple para sitios web estáticos con capacidades de blog`
 
-### Pelican falta
+### Pelican 
 `Creadas en el lenguaje Markdown,el programa procesa las publicaciones y las integra dentro del sitio final en HTML`
      
 ### Scraping heroku 
