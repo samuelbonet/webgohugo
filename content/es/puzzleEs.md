@@ -66,8 +66,8 @@
 ### Wordpress
 `Sistema de gestión de contenidos web,permite  publicar contenido en la web de forma sencilla`
 
-![bots](https://cdn.habtium.com/habtium/album/3/noticia_1254144381article_image_bots.png)
 
+     
 ---
 
 
