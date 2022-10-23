@@ -31,21 +31,21 @@ B --> C(almacenamiento de la información) -->D(comunicaciones)
 
 ### Ventajas
 
--Facilita la integración entre diferentes sistemas y comparte información 
+- Facilita la integración entre diferentes sistemas y comparte información 
 
--Tienen una mayor interacción con el usuario
+- Tienen una mayor interacción con el usuario
 
--Proporciona las diferentes áreas de una empresa generar un orden de trabajo en donde cada sector 
+- Proporciona las diferentes áreas de una empresa generar un orden de trabajo en donde cada sector 
 
--Gran utilidad
+- Gran utilidad
 
 ### Desventajas
 
--Se requiere de alguien con experiencia para su funcionamiento
+- Se requiere de alguien con experiencia para su funcionamiento
 
--Requieren que pases por procesos de validación
+- Requieren que pases por procesos de validación
 
--Limitación importante a los costos económicos 
+- Limitación importante a los costos económicos 
 
 ### Proceso de carga
 
