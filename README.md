@@ -22,7 +22,7 @@ En la cabecera añadí mi nombre, mantuve la opción de cambiar el color de la p
 vista,agregué los idiomas y el menú de opciones en sus respectivos idiomas y con el contenido que se nos pedía en el proyecto.
 
 [![cabecera.png](https://i.postimg.cc/fbRXMDk5/cabecera.png)](https://postimg.cc/cvP6mqR8)
-
+[![Captura-de-pantalla-2022-10-23-161642.png](https://i.postimg.cc/vBnHQqzz/Captura-de-pantalla-2022-10-23-161642.png)](https://postimg.cc/qhkdwGWh)
 [![footer.png](https://i.postimg.cc/ht547Bp2/footer.png)](https://postimg.cc/Mn1JhhkB)
 
 ## Idiomas<a name="id3"></a>  	:es: :fr: 	:uk:
@@ -38,9 +38,8 @@ Gracias a ella y a la captura que ajunto pude copiar el código y cambiar los pa
 la arquitectura cliente/servidor y los pasos para instalar Hugo.</p>
 <p>Lo que más se me hizo cuesta fue el añadir los gráficos mermaid,pero luego ya se solcuionó.</p>
 
+## Lanzamiento a la web<a name="id5"></a> 	:rocket:
+<p>Una vez finalizado todo el proceso decidí lanzar la página mediante Vercel</p>
+https://www.mysamus.tech/
 
 
-## Problemas que no he podido solucionar <a name="id5"></a> :x:
-<p>Como se puede reflejar en la captura,el hecho de no poder quitar despues de cada contenido la introducción,para ello  lo separé con dos líneas divisoras</p>
-
-[![captura-error.png](https://i.postimg.cc/vmPPpLJk/captura-error.png)](https://postimg.cc/d7ymCdtj)
