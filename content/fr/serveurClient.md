@@ -31,21 +31,21 @@ B --> C(stockage d'informations) -->D(communication)
 
 ### Avantage
 
--Facilite l'intégration entre les différents systèmes et partage les informations
+- Facilite l'intégration entre les différents systèmes et partage les informations
 
--Avoir une plus grande interaction avec l'utilisateur
+- Avoir une plus grande interaction avec l'utilisateur
 
--Fournit les différents secteurs d'une entreprise génèrent un ordre de travail où chaque secteur
+- Fournit les différents secteurs d'une entreprise génèrent un ordre de travail où chaque secteur
 
--Grande utilité
+- Grande utilité
 
 ### Désavantages
 
--Il nécessite une personne expérimentée pour le faire fonctionner
+- Il nécessite une personne expérimentée pour le faire fonctionner
 
--Vous obliger à passer par des processus de validation
+- Vous obliger à passer par des processus de validation
 
--Limitation importante des coûts économiques
+- Limitation importante des coûts économiques
 
 
 ### Processus de chargement
