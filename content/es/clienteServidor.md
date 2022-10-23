@@ -63,4 +63,6 @@ Como se puede ver en el gráfico,el proceso de carga parte desde el navegador qu
 y el servidor el proceso proveedor de servicios.Una vez llegado al servidor ,este lo mandará a la página php que será la encargada de procesarlo y documentar el resultado mediante 
 el HTML, y por último volverá al navegador.
 
-=======================================================================================================================================================================
+---
+
+---
