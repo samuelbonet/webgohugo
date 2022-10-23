@@ -31,21 +31,21 @@ B --> C(information storage) -->D(communications)
 
 ### Advantages
 
--Facilitates integration between different systems and shares information
+- Facilitates integration between different systems and shares information
 
--Have a greater interaction with the user
+- Have a greater interaction with the user
 
--Provides the different areas of a company generate a work order where each sector
+- Provides the different areas of a company generate a work order where each sector
 
--Great utility
+- Great utility
 
 ### Disadvantages
 
--It requires someone with experience to operate it
+- It requires someone with experience to operate it
 
--Require you to go through validation processes
+- Require you to go through validation processes
 
--Important limitation to economic costs
+- Important limitation to economic costs
 
 ### Loading process
 
