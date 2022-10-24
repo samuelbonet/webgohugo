@@ -5,7 +5,7 @@
 2. [Estructura](#id2)
 3. [Idiomas](#id3)
 4. [Contenido](#id4)
-5. [Problemas](#id5)
+5. [Lanzamiento](#id5)
 
 ## Plantilla<a name="id1"></a> 	:page_facing_up:
 <p>La plantilla previamente seleccionada iba a ser 'cupper' pero ante algunos problemas que daba y la simplicidad decidí elegir 
