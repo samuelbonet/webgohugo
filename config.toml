@@ -1,4 +1,4 @@
-baseURL = 'https://mysamus.tech/'
+baseURL = 'https://webgohugo.netlify.app/'
 languageCode = 'en-us'
 theme = 'hugo-PaperMod'
 
